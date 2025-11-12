@@ -22,7 +22,7 @@ jobs:
         # Wait for 1 hour with per-second logging
         - |
           echo "--- ⏳ Waiting for 1 hour (3600 seconds) ---"
-          for i in $(seq 1 3600); do
+          for i in $(seq 1 60); do
             echo "⏱ $i seconds completed..."
             sleep 1
           done
